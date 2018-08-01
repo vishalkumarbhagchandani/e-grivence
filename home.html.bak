@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <title>raise complaint</title>
+  <style>
+  body
+  {
+	  background-image:url(aa4.png);
+	  font:bold,20px,white;
+	  width : auto;
+	/*  background-position:fill;
+	  font:bold,20px,white;
+	  background-repeat:no-repeat;
+	background-size:cover;
+	float:auto;
+	height:570px;
+	width:100%;*/
+  }
+  form{
+	width:320px;
+		height:420px;
+		background:transparent;
+		color:#fff;
+		top:50%;
+		left:50%;
+		position:absolute;
+		 transform:translate(-50%,-50%);
+			text-align:center;
+	box-sizing:border-box;
+		 box-shadow:0 10px 20px rgba(0,0,0,0.5);
+		 transition:0.5s;
+		 
+		color:#fff;
+		}
+  h1{
+  color:white;
+text-align:center;
+font-size:35px;
+  }
+  a{
+	text-decoration:none;
+	border:1px;
+	border-color:blue;
+	}
+	.input-group input {
+  height: 30px;
+  width: 75%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.input-group select {
+height: 30px;
+  width: 80%;
+}
+
+.input-group {
+  margin: 10px 0px 10px 0px;
+}
+
+  </style>
+ </head>
+ <body  >
+  <h1 > Welcome To NRIIT Complaint Form</h1>
+  <form name="login" action="studentlogin.jsp" method="post">
+<br>
+<br>
+<div class="input-group">
+<input type="text" name="rno" placeholder="Enter Your Rollno" required><br><br>
+ <input type="text" name="sname" placeholder="Enter Your name"><br><br>
+ <input type="text" name="pswd" placeholder="Enter Your password"><br><br>
+
+  <select name="branch">
+  <option> Select Branch</option>
+  <option> IT</option>
+  <option> CSE</option>
+  <option> Civil </option>
+  <option> Mechanical </option>
+  <option> ECE</option>
+    <option> EEE</option>
+  </select> <br> <br>
+  
+  <select name="block">
+  <option> Select Block</option>
+  <option> 1st year Block</option>
+  <option> Main Block</option>
+  <option> Civil Block</option>
+  <option> Mechanical Block</option>
+  <option> IT Block</option>
+  </select> <br> <br>
+  <select name="floor">
+  <option> Select Floor</option>
+  <option> 1st Floor</option>
+  <option> 2nd Floor</option>
+  <option> 3rd Floor</option>
+  </SELECT><br> <br>
+  <select name="appliance">
+  
+  <option> SELECT APPLIANCE</option>
+  <option> FAN</option>
+  <option> LIGHT</option>
+  <option> AC</option>
+  <option> PROJECTOR</option>
+  </SELECT><br> <br>
+ <input type="text" name=comp placeholder="Enter Your complaint" required><br><br>
+	<BR><BR> <button > <A HREF="OHOME.HTML"> HOME </A> </button>
+	<button > <A HREF="studentlogin.jsp"> Submit As Student </A> </button>
+	
+</div>
+  </form>
+ </body>
+</html>

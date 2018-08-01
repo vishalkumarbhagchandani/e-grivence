@@ -1,0 +1,14 @@
+<html>
+<head>
+<link href="admin.css" rel="stylesheet">
+</head>
+<body align=center>
+<h1 style="color:white;padding-top:50px;font-family: 'Source Sans Pro';ans-serif;letter-spacing:1px;word-spacing:2px; align:center"> Insert  InTo  Database</h1>
+<form method="post" action="insert.jsp" class="login">
+
+<input type="text" placeholder="name" name="usna" required><br>
+<input type="text"  placeholder="password"  name="uspass" required><br>
+<input type="submit" value="insert"  required>
+</form>
+</body>
+</html>
